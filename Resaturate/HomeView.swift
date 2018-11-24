@@ -23,7 +23,7 @@ class HomeView: UIView {
     let photosView = UIView()
     let linksView = UIView()
     let notesView = UIView()
-    let reLabel = UILabel()
+    let reLabel = UILabelPadding()
     let logoutLabel = UILabel()
     let connectionsLabel = UILabel()
     
@@ -47,8 +47,12 @@ class HomeView: UIView {
         connectionView.backgroundColor = .white
         logoutView.backgroundColor = UIColor(hex: "F96969")
         reLabel.text = "Re:"
-        reLabel.font = UIFont(name: "HelveticaNeue-Bold", size: fontSize.xXXXLarge.rawValue)
+        reLabel.font = UIFont(name: "HelveticaNeue-Bold", size: 22)
         reLabel.textColor = .white
+        reLabel.layer.borderWidth = 2
+        reLabel.padding = UIEdgeInsets(top: 35, left: 15, bottom: 5, right: 5)
+        
+        reLabel.layer.borderColor = UIColor.white.cgColor
         print (reLabel.frame)
     }
     

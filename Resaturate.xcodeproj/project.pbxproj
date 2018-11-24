@@ -15,6 +15,7 @@
 		D7048F9821A9282A00C76DB2 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7048F9721A9282A00C76DB2 /* UIColor.swift */; };
 		D7048F9A21A928BD00C76DB2 /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7048F9921A928BD00C76DB2 /* Styling.swift */; };
 		D7048F9C21A929A300C76DB2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7048F9B21A929A300C76DB2 /* HomeView.swift */; };
+		D7048F9E21A9355C00C76DB2 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7048F9D21A9355C00C76DB2 /* UILabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D7048F9721A9282A00C76DB2 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		D7048F9921A928BD00C76DB2 /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
 		D7048F9B21A929A300C76DB2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D7048F9D21A9355C00C76DB2 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				D7048F9521A927CB00C76DB2 /* Constants.swift */,
 				D7048F9721A9282A00C76DB2 /* UIColor.swift */,
 				D7048F9921A928BD00C76DB2 /* Styling.swift */,
+				D7048F9D21A9355C00C76DB2 /* UILabel.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				D7048F9A21A928BD00C76DB2 /* Styling.swift in Sources */,
 				D7048F8521A9279700C76DB2 /* ViewController.swift in Sources */,
+				D7048F9E21A9355C00C76DB2 /* UILabel.swift in Sources */,
 				D7048F9821A9282A00C76DB2 /* UIColor.swift in Sources */,
 				D7048F9C21A929A300C76DB2 /* HomeView.swift in Sources */,
 				D7048F8321A9279700C76DB2 /* AppDelegate.swift in Sources */,
