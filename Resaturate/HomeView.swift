@@ -64,6 +64,7 @@ class HomeView: UIView {
         addContextToTiles()
     }
     
+    
     func addContextToTiles() {
         photosView.backgroundColor = UIColor(hex: "5066E3")
         linksView.backgroundColor = UIColor(hex: "35B498")
