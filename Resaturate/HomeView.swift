@@ -31,6 +31,9 @@ class HomeView: UIView {
         addSubview(connectionView)
         addSubview(logoutView)
         addSubview(reLabel)
+        
+        logoutView.addSubview(logoutLabel)
+        connectionView.addSubview(connectionsLabel)
         styleItems()
         placeItems()
     }
@@ -42,6 +45,11 @@ class HomeView: UIView {
         reLabel.translatesAutoresizingMaskIntoConstraints = false
         reLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10).isActive = true
         reLabel.topAnchor.constraint(equalTo: logoutView.bottomAnchor, constant: 25).isActive = true
+        
+        logoutLabel.translatesAutoresizingMaskIntoConstraints = false
+        logoutLabel.leadingAnchor.constraint(equalTo: logoutView.leadingAnchor, constant: 2).isActive = true
+        logoutLabel.topAnchor.constraint(equalTo: logoutView.topAnchor, constant: 2).isActive = true
+        print (logoutView.center)
     }
     func styleItems() {
         connectionView.backgroundColor = .white
@@ -50,10 +58,14 @@ class HomeView: UIView {
         reLabel.font = UIFont(name: "HelveticaNeue-Bold", size: 22)
         reLabel.textColor = .white
         reLabel.layer.borderWidth = 2
-        reLabel.padding = UIEdgeInsets(top: 35, left: 15, bottom: 5, right: 5)
+        reLabel.padding = UIEdgeInsets(top: 35, left: 15, bottom: 0, right: 5)
         
         reLabel.layer.borderColor = UIColor.white.cgColor
-        print (reLabel.frame)
+        
+        logoutLabel.numberOfLines = 3
+        logoutLabel.text = "LO\nGO\nUT"
+        logoutLabel.font = UIFont(name: "HelveticaNeue-Bold", size: 35)
+        logoutLabel.textColor = .black
     }
     
     func addTiles() {
